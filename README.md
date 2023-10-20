@@ -60,7 +60,6 @@ Exploring the tinder API it was found that json profiles contains a field - "cro
 		},
 ```
 
-<img src="./faces/faces_detect_blur_001.jpeg" width="200" height="400" />
 
 <p align="center">
   <img src="./faces/faces_detect_blur_001.jpeg" width="256" height="355">
