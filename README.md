@@ -60,12 +60,11 @@ Exploring the tinder API it was found that json profiles contains a field - "cro
 		},
 ```
 
-![](./faces/faces_detect_blur_001.jpeg =250x250)
-![](./faces/faces_detect_blur_002.jpeg =250x250)
-![](./faces/faces_detect_blur_003.jpeg =250x250)
-![](./faces/faces_detect_blur_004.jpeg =250x250)
-![](./faces/faces_detect_blur_005.jpeg =250x250)
-
+<img src="./faces/faces_detect_blur_001.jpeg" width="200" height="400" />
+<img src="./faces/faces_detect_blur_002.jpeg" width="200" height="400" />
+<img src="./faces/faces_detect_blur_003.jpeg" width="200" height="400" />
+<img src="./faces/faces_detect_blur_004.jpeg" width="200" height="400" />
+<img src="./faces/faces_detect_blur_005.jpeg" width="200" height="400" />
 
 ## Getting Started
 To get started with the code and data, follow these steps:
