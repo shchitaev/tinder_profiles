@@ -4,7 +4,68 @@
 This repository contains code for the analysis of anonymized Tinder user profile data. The dataset primarily focuses on profiles from the Groningen region, but it may include profiles from various regions as well.
 
 ## Contents
-- `data/`: This directory contains the anonymized user profile data in CSV format.
+Dataset contains features (after processing):
+*  `age`
+*  `is_selfie_verified`
+*  `gender`
+*  `schools`
+*  `city`
+*  `show_gender_on_profile`
+*  `relationship_intent`
+*  `sexual_orientations`
+*  `hide_age`
+*  `hide_distance`
+*  `is_traveling`
+*  `custom_gender`
+*  `zodiac_sign`
+*  `height`
+*  `education_level`
+*  `relationship_type`
+*  `workout`
+*  `professions`
+*  `company_name`
+*  `has_face`
+
+## Faces
+
+Exploring the tinder API it was found that json profiles contains a field - "crop_info" where the box faces are specified with high precision in the form:
+
+```yaml
+   "crop_info": {
+			"user": {
+				"width_pct": 1,
+				"x_offset_pct": 0,
+				"height_pct": 0.8,
+				"y_offset_pct": 0
+			},
+			"algo": {
+				"width_pct": 0.34605344,
+				"x_offset_pct": 0.44997345,
+				"height_pct": 0.31724511,
+				"y_offset_pct": 0.036002084
+			},
+			"processed_by_bullseye": true,
+			"user_customized": false,
+			"faces": [
+				{
+					"algo": {
+						"width_pct": 0.34605344,
+				"x_offset_pct": 0.44997345,
+				"height_pct": 0.31724511,
+				"y_offset_pct": 0.036002084
+					},
+					"bounding_box_percentage": 11
+				}
+			]
+		},
+```
+
+![](./faces/faces_detect_blur_001.jpeg){:height="50%" width="50%"}
+![](./faces/faces_detect_blur_002.jpeg){:height="50%" width="50%"}
+![](./faces/faces_detect_blur_003.jpeg){:height="50%" width="50%"}
+![](./faces/faces_detect_blur_004.jpeg){:height="50%" width="50%"}
+![](./faces/faces_detect_blur_005.jpeg){:height="50%" width="50%"}
+
 
 ## Getting Started
 To get started with the code and data, follow these steps:
