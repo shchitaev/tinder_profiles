@@ -30,7 +30,7 @@ Dataset contains features (after processing):
 
 Exploring the tinder API it was found that json profiles contains a field - "crop_info" where the box faces are specified with high precision in the form:
 
-```yaml
+```json
    "crop_info": {
 			"user": {
 				"width_pct": 1,
@@ -60,11 +60,11 @@ Exploring the tinder API it was found that json profiles contains a field - "cro
 		},
 ```
 
-![](./faces/faces_detect_blur_001.jpeg){:height="50%" width="50%"}
-![](./faces/faces_detect_blur_002.jpeg){:height="50%" width="50%"}
-![](./faces/faces_detect_blur_003.jpeg){:height="50%" width="50%"}
-![](./faces/faces_detect_blur_004.jpeg){:height="50%" width="50%"}
-![](./faces/faces_detect_blur_005.jpeg){:height="50%" width="50%"}
+![](./faces/faces_detect_blur_001.jpeg =250x250)
+![](./faces/faces_detect_blur_002.jpeg =250x250)
+![](./faces/faces_detect_blur_003.jpeg =250x250)
+![](./faces/faces_detect_blur_004.jpeg =250x250)
+![](./faces/faces_detect_blur_005.jpeg =250x250)
 
 
 ## Getting Started
