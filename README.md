@@ -1,7 +1,7 @@
 # tinder_profiles
 
 ## Overview
-This repository contains code for the analysis of anonymized Tinder user profile data. The dataset primarily focuses on profiles from the Groningen region, but it may include profiles from various regions as well.
+This repository contains code for the analysis of anonymized Tinder user profile data. The dataset primarily focuses on profiles from the Groningen region (NL), but it may include profiles from various regions as well.
 
 ## Contents
 Dataset contains features (after processing):
