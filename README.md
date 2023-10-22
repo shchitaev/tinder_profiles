@@ -59,7 +59,7 @@ Exploring the tinder API it was found that json profiles contains a field - "cro
 			]
 		},
 ```
-
+If you plot the coordinate on the profile photo, you get a rectangle box with a face:
 
 <p align="center">
   <img src="./faces/faces_detect_blur_001.jpeg" width="256" height="355">
